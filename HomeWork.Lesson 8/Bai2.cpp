@@ -18,11 +18,15 @@ int main(){
 			if(i==j){
 			
 			Sum =Sum + array[i][j]+ array[m-1-i][m-1-j];
-			count++;
+			count+=2;
+				if(i==i &&m-1-i){
+					count--;
+					Sum = Sum- array[i][j];
+				}
 			}
 		}
 	}
-	printf(" TBC cua 2 duong cheo la: %d", Sum/count);
+	printf(" tong gia tri cua 2 duong cheo la: %d", Sum/count);
 
 }
 
