@@ -12,16 +12,17 @@ int main(){
 			scanf("%d", &array[i][j]);
 		}
 	}
-	int Sum =0;
+	int Sum =0, count=0;
 	for(int i=0; i<m; i++){
 		for(int j=0; j<m; j++){
 			if(i==j){
 			
 			Sum =Sum + array[i][j]+ array[m-1-i][m-1-j];
+			count++;
 			}
 		}
 	}
-	printf(" tong gia tri cua 2 duong cheo la: %d", Sum);
+	printf(" tong gia tri cua 2 duong cheo la: %d", Sum/count);
 
 }
 
