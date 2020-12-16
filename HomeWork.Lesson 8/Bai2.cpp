@@ -22,7 +22,7 @@ int main(){
 			}
 		}
 	}
-	printf(" tong gia tri cua 2 duong cheo la: %d", Sum/count);
+	printf(" TBC cua 2 duong cheo la: %d", Sum/count);
 
 }
 
