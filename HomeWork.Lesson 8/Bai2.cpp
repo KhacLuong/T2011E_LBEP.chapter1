@@ -26,7 +26,7 @@ int main(){
 			}
 		}
 	}
-	printf(" TBC cua 2 duong cheo la: %d", Sum/count);
+	printf(" TBC cua 2 duong cheo la: %f", (float)Sum/count);
 
 }
 
