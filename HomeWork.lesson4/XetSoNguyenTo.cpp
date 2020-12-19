@@ -5,7 +5,7 @@ int main(){
 	printf(" nhap vao so nguyen n:   ");
 	scanf("%d", &n);
 	if (n==0){
-		printf(" day la so nguye to");
+		printf(" day la so nguyen to");
 	}else{
 		
 		for(int i=2; i<n; i++){

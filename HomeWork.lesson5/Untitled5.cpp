@@ -8,6 +8,6 @@ int main(){
 			break;
 		}
 	}
-	printf(" BCLN cua a,b la %d", i);
+	printf(" BCNN cua a,b la %d", i);
 	
 }

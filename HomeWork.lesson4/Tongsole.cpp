@@ -20,6 +20,20 @@ int main(){
 		S= S+i;	
 		i+=2;
 	}
-	printf("Gia tri tong S = %d", S);
+	printf("Gia tri tong S = %d\n", S);
+	
+	
+	
+//=========================== cach 2( cau truc tong quat hon)
+
+
+	int x = 0;
+	for(int i = 0, j =0; i<100; j++){
+		if(j%2==1){
+			x+=j;
+		}
+		i++;
+	}
+	printf("x = %d", x);
 
 }
